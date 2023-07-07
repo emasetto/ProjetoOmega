@@ -1,0 +1,65 @@
+.navtop{
+    font-size: 25px;
+    font-weight:bolder;
+    
+}
+
+.navtop a {
+    color: rgb(0, 0, 0);
+    font-weight:bolder;
+    font-size: 25px;
+}
+
+
+  
+
+ footer{
+    background-color:rgb(103, 115, 129) ;
+    color: rgb(250, 251, 252);
+   
+} 
+
+
+/* .page-container {
+    background-image: url('../../images/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+   */
+
+.page-container {
+    background-image: url('../../images/hero-bg.png');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 82vh;
+    display: flex;
+    flex-direction: column;
+}
+  
+@media screen and (max-width: 768px) {
+    .page-container {
+      height: 100vh;
+      
+    }
+  
+}
+  
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+      height: auto; 
+    }
+}
+  
+ 
+@media screen and (min-width: 768px) {
+    .footer {
+      height: 190px; 
+    }
+}
+  

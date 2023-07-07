@@ -1,0 +1,50 @@
+.btn-social {
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+
+.contatos {
+  margin-top: 3%;
+}  
+
+.time{
+ margin: 10px ;
+ 
+}
+
+
+.contanier{
+  display: flex;
+}
+
+.card{
+  width: 260px;
+  max-width: 300px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  
+  
+}
+
+
+
+.card:hover{
+  transform: translateY(-20px);
+}
+.card:hover ~ .card{
+  left: 50px;
+}
+
+.squad-text {
+  margin-top: 3%;
+  text-align: center;
+  
+}
+
+.textEsquad{
+  font-weight: bold;
+}
